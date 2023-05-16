@@ -1,7 +1,7 @@
 # Bizcard Card Extracting with OCR
 Bizcard Extraction is a Python application built with Streamlit, EasyOCR, OpenCV, regex function, and MySQL database. It allows users to extract information from business cards and store it in a MySQL database for further analysis.
 # Homepage
-![home page](https://github.com/SRIDHAR3131/Business-Card-Extracting-with-OCR/assets/68391060/ec0f3f33-71e5-4e18-89c3-fb84a8ef8ead)
+![Home page](https://github.com/SRIDHAR3131/Business-Card-Extracting-with-OCR/assets/68391060/17b3a840-d87a-4b6e-b966-98585321ba2f)
 # Undefined text extraction
 ![Screenshot 2023-05-16 190907](https://github.com/SRIDHAR3131/Business-Card-Extracting-with-OCR/assets/68391060/e6253361-6f0d-4ad6-b2c5-d40e43405f17)
 # Text extraction
@@ -37,6 +37,7 @@ Bizcard Extraction is a Python application built with Streamlit, EasyOCR, OpenCV
 
 # Technologies Used
 - Streamlit
+- Streamlit_lottie
 - Python
 - RegEx 
 - EasyOCR
