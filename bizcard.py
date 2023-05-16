@@ -1,4 +1,3 @@
-
 import streamlit as st
 import mysql.connector  #databse connection MySQL
 from streamlit_option_menu import option_menu
@@ -6,8 +5,8 @@ from streamlit_lottie import st_lottie
 import requests
 from PIL import Image
 import easyocr
-import cv2
-import re    #text processing
+import cv2    #image processing
+import re     #text processing
 import pandas as pd
 import numpy as np
 import time  #spinner
