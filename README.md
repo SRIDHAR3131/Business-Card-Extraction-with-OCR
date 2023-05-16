@@ -27,7 +27,9 @@ Bizcard Extraction is a Python application built with Streamlit, EasyOCR, OpenCV
  
 4.The application will preprocess the image using OpenCV by resizing, cropping, and enhancing it.
 
-5.The processed image will be passed to EasyOCR for text extraction.
+5.The processed image will be passed to EasyOCR for text extraction. Install thisfor latest development of easyOCR
+    
+    pip install git+https://github.com/JaidedAI/EasyOCR.git
 
 6.The extracted information will be displayed on the screen, and it will be stored in the MySQL database.
 
