@@ -317,7 +317,7 @@ with text_process:
                 # Get the column names from the table
                 mycursor.execute("SHOW COLUMNS FROM card_data")
                 columns = mycursor.fetchall()
-                column_names = [i[0] for i in columns if i[0] not in ['id', 'image']]
+                column_names = [i[0] for i in columns if i[0] not in ['id', 'image','name','designation']]
 
                 # Display the selection box for column name
                 selection = st.selectbox("Select specific column to update", column_names)
