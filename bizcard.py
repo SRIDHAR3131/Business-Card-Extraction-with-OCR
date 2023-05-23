@@ -38,10 +38,10 @@ app_bg()
 
 #============================================DATA BASE CONNECTION=======================================================
 mydb = mysql.connector.connect(
-  host="localhost",
-  user="root",
-  password="Sridhar15",
- database="business_card"
+  host="<your_host>",
+  user="<your_user>",
+  password="<your_password>",
+ database="<your_database>"
 )
 mycursor = mydb.cursor()
 mycursor.execute("CREATE TABLE card_data ("
